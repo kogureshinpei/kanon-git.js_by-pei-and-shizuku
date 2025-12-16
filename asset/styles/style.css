@@ -1,0 +1,53 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+header{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+header h1{
+    margin: 20px 30px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 30px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+    border-bottom: #888 1px solid;
+}
+main{
+    margin-top: 100px;
+    padding: 20px 40px;
+    background-color: bisque;
+}
+main section h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+main section h1::before{
+    content: "§ ";
+    color: #888;
+}
+/* ----section(ABOUT POSSE)------- */
+#about-posse div ul{
+    padding: 20px;
+}
+main section div ul{
+    display: flex;
+}
+main section div ul li{
+    display:inline-block;
+    margin-right: 15px;
+    border: #888 1px solid;
+}
+/* ----section(ACTIVITY)------- */
+/* ----section(DAIRY)------- */
