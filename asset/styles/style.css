@@ -10,6 +10,7 @@ header{
     top: 0;
     left: 0;
     width: 100vw;
+    z-index: 100;
 }
 header h1{
     margin: 20px 30px;
@@ -51,3 +52,15 @@ main section div ul li{
 }
 /* ----section(ACTIVITY)------- */
 /* ----section(DAIRY)------- */
+.splide{
+    height: 100vh;
+}
+.splide__track{
+    height: 100%;
+    width: 100%;
+}
+.splide__slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
