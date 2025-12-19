@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(0deg, #ccae9f 0%, #28305d 40%, #050847 80%)
+    no-repeat #383d95;
+  min-height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#starry_sky {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.star {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: twinkle; /*アニメーション名を指定*/
+  animation-iteration-count: infinite; /*アニメーション時間を無限に*/
+}
+
+@keyframes twinkle {
+  /*アニメーションの内容*/
+  0% {
+    transform: scale(1); /* 通常の大きさ */
+  }
+  50% {
+    transform: scale(0.2); /* 20%の大きさ */
+  }
+  100% {
+    transform: scale(1); /* 元の大きさに戻る */
+  }
+}
